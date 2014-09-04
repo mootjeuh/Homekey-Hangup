@@ -1,6 +1,6 @@
 Package: com.mootjeuh.homekeyhangup
 Name: Homekey Hangup
-Depends: mobilesubstrate, cc.tweak.libobjcipc
+Depends: mobilesubstrate
 Version: 0.1
 Architecture: iphoneos-arm
 Description: Press the home button to hang up while in call.
