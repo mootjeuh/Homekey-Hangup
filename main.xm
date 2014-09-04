@@ -81,7 +81,7 @@ static BOOL isHeadsetPluggedIn()
 
 - (void)_setSpeakerButtonSelected:(BOOL)arg1
 {
-	NSString *result = [[NSString alloc] initWithFormat:@"%hhd", (char)arg1];
+	NSString *result = [NSString stringWithFormat:@"%hhd", (char)arg1];
 	[result writeToFile:speakerModePath atomically:YES encoding:NSASCIIStringEncoding error:NULL];
 	%orig;
 }
